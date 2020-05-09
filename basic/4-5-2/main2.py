@@ -9,10 +9,10 @@
 ４）取り出した数値を全て合計して表示せよ(reduce)
 '''
 import random
-a =[]
+a = []
 for i in range(20):
-    rand_int =random.randint(0, 100)
+    rand_int = random.randint(0, 100)
     a.append(rand_int)
 
-a_2 = list(map(lambda x: x*x , a))
+a_2 = list(map(lambda x: x * x, a))
 print(a_2)

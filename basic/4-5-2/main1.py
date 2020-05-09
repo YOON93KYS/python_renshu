@@ -13,7 +13,7 @@
 import random
 a = []
 for i in range(20):
-    rand_int =random.randint(0, 100)
+    rand_int = random.randint(0, 100)
     a.append(rand_int)
 
 print(a)

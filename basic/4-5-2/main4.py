@@ -19,4 +19,4 @@ a_3 = list(filter(lambda x: x > 2000, a_2))
 
 from functools import reduce
 from operator import add
-print(reduce(add, a_3))
+print(reduce(add, a_3));

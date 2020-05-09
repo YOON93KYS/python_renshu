@@ -6,7 +6,13 @@
 
 （目標２０分）
 '''
-def add_3(num_1,num_2):
-    return(num_1 + num_2)
+'''
 #２）add関数に10,20を渡して戻り値を受け取り、出力せよ
-print(add_3(10,20))
+'''
+
+
+def add_3(num_1, num_2):
+    return(num_1 + num_2)
+
+
+print(add_3(10, 20))

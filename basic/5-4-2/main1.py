@@ -6,6 +6,10 @@
 
 （目標２０分）
 '''
+'''
 #１）５－３－２の関数(def)で定義したadd関数でnum_1とnum_2を足した値を返すように変更せよ
-def add_3(num_1,num_2):
+'''
+
+
+def add_3(num_1, num_2):
     return(num_1 + num_2)

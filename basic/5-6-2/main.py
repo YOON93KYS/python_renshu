@@ -4,8 +4,9 @@
 その場合は0を返すようにせよ（目標１０分）
 '''
 
-def add_2(aa,bb):
+
+def add_2(aa, bb):
     try:
-        print(aa+bb)
-    except:
-        print(0)
+        return(aa + bb)
+    except ValueError:  # https://monozukuri-c.com/python-pep8-e722/
+        return(0)
