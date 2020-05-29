@@ -10,11 +10,9 @@ Python을 사용하고 있다면, input 대신 sys.stdin.readline을 사용할 �
 테스트케이스를 하나 받은 뒤 하나 출력해도 된다.
 자세한 설명 및 다른 언어의 경우는 이 글에 설명되어 있다.
 이 블로그 글에서 BOJ의 기타 여러 가지 팁을 볼 수 있다.
-
 입력
 첫 줄에 테스트케이스의 개수 T가 주어진다. T는 최대 1,000,000이다.
 다음 T줄에는 각각 두 정수 A와 B가 주어진다. A와 B는 1 이상, 1,000 이하이다.
-
 출력
 각 테스트케이스마다 A+B를 한 줄에 하나씩 순서대로 출력한다
 '''
@@ -31,9 +29,7 @@ for i in range(T):
 
 '''
 参考：split()！！！！！！！
-
 エラー
-
 sys.stdin.readline?
 TypeError: 'int' object is not iterable?
 invalid literal for int() with base 10: '1 1\n'

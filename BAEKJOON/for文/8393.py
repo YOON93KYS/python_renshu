@@ -14,3 +14,8 @@ n = int(input())
 for i in range(1, n + 1):
     a = a + i
 print(a)
+
+'''
+気づいたこと
+print()をどこに置くのかによって結果が違うので注意
+'''
